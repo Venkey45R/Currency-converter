@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Currency Converter</title>
+	<link rel="stylesheet" type="text/css" href="currency.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Currency converter</h1>
+		<div class="row">
+			<div class="col">
+				<select class="currency">
+					<option>select</option>
+				</select>
+				<input type="text" id="input">
+			</div>
+
+			<div class="col">
+				<select class="currency">
+					<option>select</option>
+				</select>
+				<input type="text" id="output" disabled>
+			</div>
+		</div>
+		<button onclick="converter()">Convert</button>
+	</div>
+
+	<script type="text/javascript" src="currency.js"></script>
+</body>
+</html>
